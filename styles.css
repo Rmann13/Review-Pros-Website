@@ -296,9 +296,7 @@ section { padding: 72px 0; }
 .tap-demo .stars { margin-bottom: 20px; }
 .tap-demo h2 { font-size: 30px; font-weight: 800; margin-bottom: 14px; }
 .tap-demo p { color: #c9c9c9; font-size: 15px; }
-.tap-icon svg { width: 200px; height: auto; }
-.tap-icon path, .tap-icon circle, .tap-icon rect { stroke: var(--white); }
-.tap-icon .label { fill: var(--white); }
+.tap-icon img { width: 220px; max-width: 100%; display: block; margin: 0 auto; }
 
 /* Pricing */
 .pricing-list {
@@ -530,6 +528,7 @@ footer {
   .site-header.open .main-nav { display: flex; }
   .main-nav .links { flex-direction: column; gap: 20px; }
   .header-phone { display: none; }
+  .site-header.open .main-nav .links { display: flex; }
   .site-header.open .header-phone { display: flex; margin-top: 16px; }
   .price-card { flex-direction: column; align-items: flex-start; gap: 14px; }
   .tap-demo { padding: 40px 24px; }
